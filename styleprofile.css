@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.p1{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.box{
+    opacity:50% ;
+    background: rgb(63, 62, 62);
+    text-align: center;
+    padding: 40px 90px;
+    color: white;
+    position: center;
+    position: fixed;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.Video{
+    padding-top: 28%;
+    position: absolute;
+    top: 100px;
+}
